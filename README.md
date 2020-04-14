@@ -1,4 +1,4 @@
-# Recursive GoIndex Downloader by atlonxp
+# Recursive GoIndex Downloader
 
 This code was created and improved by adapting the code from pankaj260 https://colab.research.google.com/drive/1tmsLGuswIZIZ_oM35EMW8TbJ6pQPt1rY#scrollTo=3bCnUMUg_SoT&forceEdit=true&sandboxMode=true
 
