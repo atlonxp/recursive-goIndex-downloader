@@ -17,6 +17,7 @@ This code was created and improved by adapting the code from pankaj260 https://c
 - Aria2 integration
 
 **Changelogs**
+
 *15 April 2020*:
 - Added auto-domain URL detection
 - Added simple download queue
