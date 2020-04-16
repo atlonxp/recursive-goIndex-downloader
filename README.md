@@ -17,6 +17,8 @@ This code was created and improved by adapting the code from pankaj260 https://c
 
 **Version 2**:
 
+API-based crawler with paralled files downloader
+
 	16 April 2020
 
 	+ crawler_v2:
@@ -26,6 +28,8 @@ This code was created and improved by adapting the code from pankaj260 https://c
 		* TDQM progress bar
 
 **Version 1**:
+
+Simple HTTP-based crawler and simple series downloader
 
 	15 April 2020
 	-   Added auto-domain URL detection
