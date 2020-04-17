@@ -18,7 +18,12 @@ This code was created and improved by adapting the code from pankaj260 https://c
 **Version 2**:
 
 API-based crawler with paralled files downloader
+	
+	17 April 2020 (v2.1)
 
+	+ fixed URL duplicated when crawling
+	+ added search 'files' key for some websites do not have proper files structure. So, we search it\
+	
 	16 April 2020
 
 	+ crawler_v2:
