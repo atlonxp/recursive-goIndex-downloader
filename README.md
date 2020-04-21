@@ -18,13 +18,19 @@
 
 API-based crawler with paralled files downloader
 	
-	21 Aprial 2020 (v2.3)
+	21 Aprial 2020 (v2.3.1)
 	---------------------
-	While crawling, fetching might cause errors sometime due to some quick requests or server is busy. This problem has caused the eror in getting
-	a json, so we re-fetch the url again (up to MAX_RETRY_CRAWLING) or until we found key "files" in the return response. Once retries is reached
-	the maximum and the key "files" is not found, so we ignore this link (return [])
-	
-	+ added MAX_RETRY_CRAWLING
+	While crawling, fetching might cause errors sometime due to some quick requests or server is busy.
+	This problem has caused the eror in getting a json, so we re-fetch the url again (up to MAX_RETRY_CRAWLING)
+	or until we found key "files" in the return response. Once retries is reached the maximum and
+	the key "files" is not found, so we ignore this link (return [])
+
+	At the end, if you find there is failure, just re-run the download section again. Unless you set
+	OVERWITE = TRUE, all files will be re-downloaded
+
+	+ added MAX_RETRY_CRAWLING (v2.3)
+	+ fixed FILE_EXISTING_CHECK (stupid) bug
+	+ added failure-links download task
 	
 	20 Aprial 2020 (v2.2)
 	---------------------
