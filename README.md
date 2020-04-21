@@ -45,7 +45,7 @@ API-based crawler with paralled files downloader
 	+ parallel downloader
 		* TDQM progress bar
 
-###Version 1:
+### Version 1:
 
 Simple HTTP-based crawler and simple series downloader
 
