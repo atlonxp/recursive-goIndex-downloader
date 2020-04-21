@@ -1,8 +1,6 @@
 
 ## Recursive GoIndex Downloader by atlonxp
 
-This code was created and improved by adapting the code from pankaj260 https://colab.research.google.com/drive/1tmsLGuswIZIZ_oM35EMW8TbJ6pQPt1rY#scrollTo=3bCnUMUg_SoT&forceEdit=true&sandboxMode=true
-
 ### Features
 *   Recursive crawler (**atlonxp**)
 *   Download all folders and files in a given url (**atlonxp**)
@@ -50,6 +48,9 @@ API-based crawler with paralled files downloader
 ###Version 1:
 
 Simple HTTP-based crawler and simple series downloader
+
+Version 1 was created and improved by adapting the code from pankaj260 https://colab.research.google.com/drive/1tmsLGuswIZIZ_oM35EMW8TbJ6pQPt1rY#scrollTo=3bCnUMUg_SoT&forceEdit=true&sandboxMode=true
+
 
 	15 April 2020 (v1.1)
 	---------------------
