@@ -3,7 +3,7 @@
 
 This code was created and improved by adapting the code from pankaj260 https://colab.research.google.com/drive/1tmsLGuswIZIZ_oM35EMW8TbJ6pQPt1rY#scrollTo=3bCnUMUg_SoT&forceEdit=true&sandboxMode=true
 
-**Features**
+###Features
 *   Recursive crawler (**atlonxp**)
 *   Download all folders and files in a given url (**atlonxp**)
 *   Download all folders and files in in sub-folders (**atlonxp**)
@@ -16,34 +16,46 @@ This code was created and improved by adapting the code from pankaj260 https://c
 *   Parallel/Multiple files downloader (**atlonxp**)
 *   Auto-skip password-protected folders (**cxu-fork**)
 
-**Version 2**:
+###Version 2:
 
 API-based crawler with paralled files downloader
 	
+	21 Aprial 2020 (v2.3)
+	---------------------
+	While crawling, fetching might cause errors sometime due to some quick requests or server is busy. This problem has caused the eror in getting
+	a json, so we re-fetch the url again (up to MAX_RETRY_CRAWLING) or until we found key "files" in the return response. Once retries is reached
+	the maximum and the key "files" is not found, so we ignore this link (return [])
+	
+	+ added MAX_RETRY_CRAWLING
+	
 	20 Aprial 2020 (v2.2)
+	---------------------
+	Some sub-folders may be password-protected which will cause the error while crawling, so we skip this folder
 	
 	+ added auto-skip password-protected folder
 	
 	17 April 2020 (v2.1)
-
+    ---------------------
 	+ fixed URL duplicated when crawling
 	+ added search 'files' key for some websites do not have proper files structure. So, we search it\
 	
-	16 April 2020
-
+	16 April 2020 (v2.0)
+    ---------------------
 	+ crawler_v2:
 		* API-based GoIndex crawler
 		* Collecting all urls to be downloaded
 	+ parallel downloader
 		* TDQM progress bar
 
-**Version 1**:
+###Version 1:
 
 Simple HTTP-based crawler and simple series downloader
 
-	15 April 2020
+	15 April 2020 (v1.1)
+	---------------------
 	-   Added auto-domain URL detection
 	-   Added simple download queue
 
-	14 April 2020
-		-   initial
+	14 April 2020 (v1.0)
+	---------------------
+    -   initial
