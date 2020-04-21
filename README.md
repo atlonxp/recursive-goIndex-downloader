@@ -16,7 +16,7 @@
 
 ### Version 2:
 
-API-based crawler with paralled files downloader
+API-based crawler with parallel files downloader
 	
 	21 Aprial 2020 (v2.3.1)
 	---------------------
