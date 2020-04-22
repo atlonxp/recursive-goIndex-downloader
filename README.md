@@ -18,6 +18,12 @@
 
 API-based crawler with parallel files downloader
 	
+	22 April 2020 (v2.3.2)
+    ---------------------
+	
+	+ added summary
+	+ added Exception when file is unable to download
+	
 	21 Aprial 2020 (v2.3.1)
 	---------------------
 	While crawling, fetching might cause errors sometime due to some quick requests or server is busy.
