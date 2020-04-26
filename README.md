@@ -18,6 +18,10 @@
 
 API-based crawler with parallel files downloader
 	
+	26 April 2020 (v2.3.3)
+
+	+ added downloaded size information
+	
 	22 April 2020 (v2.3.2)
     ---------------------
 	
