@@ -14,9 +14,21 @@
 *   Parallel/Multiple files downloader (**atlonxp**)
 *   Auto-skip password-protected folders (**cxu-fork**)
 
+
+### Upcoming 
+*   parallel crawlers
+
 ### Version 2:
 
 API-based crawler with parallel files downloader
+	
+	28 April 2020 (v2.4.0)
+	
+	+ added feature: curl download mode as default (we found sometime, requests.get caused a corrupted file)
+	+ added feature: file size check. If not the same in the metadata, we force download
+	+ added feature: double file size check. Once a file is downloaded, we re-check the it size with the metdadata
+	+ revised time delay while crawling and downloading 
+	+ fixed major bugs when checking file size
 	
 	26 April 2020 (v2.3.3)
 
