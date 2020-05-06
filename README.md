@@ -40,7 +40,7 @@ API-based crawler with parallel files downloader
 	+ added summary
 	+ added Exception when file is unable to download
 	
-	21 Aprial 2020 (v2.3.1)
+	21 April 2020 (v2.3.1)
 	---------------------
 	While crawling, fetching might cause errors sometime due to some quick requests or server is busy.
 	This problem has caused the eror in getting a json, so we re-fetch the url again (up to MAX_RETRY_CRAWLING)
@@ -54,7 +54,7 @@ API-based crawler with parallel files downloader
 	+ fixed FILE_EXISTING_CHECK (stupid) bug
 	+ added failure-links download task
 	
-	20 Aprial 2020 (v2.2)
+	20 April 2020 (v2.2)
 	---------------------
 	Some sub-folders may be password-protected which will cause the error while crawling, so we skip this folder
 	
